@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#E69C30"
+    tools:context=".SessionFragment">
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="351dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="362dp"
+            android:layout_height="97dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/img_5" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/inputTextUser"
+                    android:layout_width="256dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="80"
+                    android:ems="10"
+                    android:inputType="text" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="362dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/img_7" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/inputPwd"
+                    android:layout_width="256dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="80"
+                    android:ems="10"
+                    android:inputType="textPassword" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="156dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="150dp">
+
+            <ImageButton
+                android:id="@+id/consultar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                android:src="@drawable/img_4" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="200dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="415dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00FFFFFF"
+            android:src="@drawable/img_8" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
